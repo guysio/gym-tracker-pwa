@@ -737,7 +737,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     console.warn('Người dùng chưa đăng nhập.');
                     // Chuyển hướng đến trang đăng nhập nếu cần
-                    window.location.href = '/index.html';
+                    // window.location.href = '/index.html';
                 }
             });
         } catch (error) {

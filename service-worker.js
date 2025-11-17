@@ -11,7 +11,7 @@ const urlsToCache = [
     '/js/firebase-connect.js',
     '/images/icon-192x192.png',
     '/images/icon-512x512.png',
-    '/manifest.json'
+    './manifest.json'
 ];
 
 // Sự kiện install:

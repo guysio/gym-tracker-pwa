@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-gym-tracker-cache-v2';
+const CACHE_NAME = 'pwa-gym-tracker-cache-v3';
 const urlsToCache = [
     '/app/Views/homepage.html',
     '/app/Views/update-progress.html',

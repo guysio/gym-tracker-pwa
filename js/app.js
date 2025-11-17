@@ -210,7 +210,7 @@ function closeTab() {
 
 // Sự kiện nút Check for Updates
 tab.querySelector('#update-sw').addEventListener('click', () => {
-    window.location.href = './app/Views/update-progress.html';
+    window.location.href = '/app/Views/update-progress.html';
 });
 actionBtn.addEventListener('click', () => openTab());
 tab.querySelector('#close-tab-SYS').addEventListener('click', () => closeTab());
@@ -227,5 +227,5 @@ document.addEventListener('click', (e) => {
 // Preserve update button behavior (in test this will navigate if the path exists)
 const updateBtn = tab.querySelector('#update-sw');
 updateBtn.addEventListener('click', () => {
-    window.location.href = './app/Views/update-progress.html';
+    window.location.href = '/app/Views/update-progress.html';
 });

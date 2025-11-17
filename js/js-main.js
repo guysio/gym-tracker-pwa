@@ -16,16 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const allMuscles = [...frontMuscles, ...backMuscles];
 
     const muscleIcons = {
-        "Ngực": "./images/choose/chest.png",
-        "Vai": "./images/choose/shoulder.png",
-        "Bụng": "./images/choose/abs.png",
-        "Tay trước": "./images/choose/biceps.png",
-        "Lưng": "./images/choose/back.png",
-        "Tay sau": "./images/choose/triceps.png",
-        "Mông": "./images/choose/glutes.png",
-        "Đùi trước": "./images/choose/quads.png",
-        "Đùi sau": "./images/choose/hamstrings.png",
-        "Bắp chân": "./images/choose/calves.png"
+        "Ngực": "/images/choose/chest.png",
+        "Vai": "/images/choose/shoulder.png",
+        "Bụng": "/images/choose/abs.png",
+        "Tay trước": "/images/choose/biceps.png",
+        "Lưng": "/images/choose/back.png",
+        "Tay sau": "/images/choose/triceps.png",
+        "Mông": "/images/choose/glutes.png",
+        "Đùi trước": "/images/choose/quads.png",
+        "Đùi sau": "/images/choose/hamstrings.png",
+        "Bắp chân": "/images/choose/calves.png"
     };
 
 

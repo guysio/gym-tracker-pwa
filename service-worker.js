@@ -1,17 +1,17 @@
-const CACHE_NAME = 'pwa-gym-tracker-cache-v1';
+const CACHE_NAME = 'pwa-gym-tracker-cache-v2';
 const urlsToCache = [
-    './app/Views/homepage.html',
-    './app/Views/update-progress.html',
-    './app/Views/css/colors.css',
-    './app/Views/css/style.css',
-    './js/app.js',
-    './js/js-main.js',
-    './js/read-write-data.js',  
-    './js/firebase-config.js',
-    './js/firebase-connect.js',
-    './images/icon-192x192.png',
-    './images/icon-512x512.png',
-    './manifest.json'
+    '/app/Views/homepage.html',
+    '/app/Views/update-progress.html',
+    '/app/Views/css/colors.css',
+    '/app/Views/css/style.css',
+    '/js/app.js',
+    '/js/js-main.js',
+    '/js/read-write-data.js',  
+    '/js/firebase-config.js',
+    '/js/firebase-connect.js',
+    '/images/icon-192x192.png',
+    '/images/icon-512x512.png',
+    '/manifest.json'
 ];
 
 // Sự kiện install:

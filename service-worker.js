@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-gym-tracker-cache-v3';
+const CACHE_NAME = 'pwa-gym-tracker-cache-v4';
 const urlsToCache = [
     './app/Views/homepage.html',
     './app/Views/update-progress.html',
@@ -85,11 +85,11 @@ self.addEventListener('message', async event => {
         console.log('[Service Worker] Starting update process...');
         
         // Fetch manifest mới từ server
-        const response = await fetch('/manifest.json');
+        const response = await fetch('./manifest.json');
         const newManifest = await response.json();
 
         // Lấy manifest cũ từ cache
-        const cachedManifest = await caches.match('/manifest.json').then(res => res ? res.json() : null);
+        const cachedManifest = await caches.match('./manifest.json').then(res => res ? res.json() : null);
 
         // Kiểm tra phiên bản mới
         if (cachedManifest && cachedManifest.ver !== newManifest.ver) {

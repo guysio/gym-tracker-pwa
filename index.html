@@ -72,10 +72,10 @@
         // Đăng ký Service Worker và chuyển trang
         function setupSWAndRedirect() {
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/service-worker.js').then(() => {
+                navigator.serviceWorker.register('./service-worker.js').then(() => {
                     document.getElementById('setup-text').textContent = "Thiết lập hoàn tất, đang chuyển trang...";
                     setTimeout(() => {
-                        window.location.href = '/app/Views/homepage.html';
+                        window.location.href = './app/Views/homepage.html';
                     }, 5000);
                 }).catch(() => {
                     document.getElementById('setup-text').textContent = "Không thể thiết lập Service Worker!";

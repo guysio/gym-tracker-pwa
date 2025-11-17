@@ -2,7 +2,7 @@
     "name": "GYM TRACKER",
     "short_name": "Countdown",
     "start_url": "/index.html",
-    "scope": "./gym-tracker-pwa",
+    "scope": "./",
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#A2F5FE",

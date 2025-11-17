@@ -1,7 +1,7 @@
 {
     "name": "GYM TRACKER",
     "short_name": "GYM TRACKER",
-    "start_url": "/index.html",
+    "start_url": "./index.html",
     "scope": "./",
     "display": "standalone",
     "orientation": "portrait",
